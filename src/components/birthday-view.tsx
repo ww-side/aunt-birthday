@@ -44,7 +44,7 @@ export const BirthdayView = () => {
   }, []);
 
   return (
-    <section className="flex flex-col items-center justify-center w-[60%] text-center max-[1040px]:w-[90%] gap-6">
+    <section className="flex flex-col items-center justify-center text-center gap-6">
       <SplitText text="Happy birthday, dear aunt!" />
       <AnimatedP style={animationProps1}>
         Happy Birthday to the most amazing aunt! 🎉💐

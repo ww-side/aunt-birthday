@@ -7,12 +7,12 @@ export const App = () => {
   const [isWarning, setIsWarning] = useState(false);
 
   return (
-    <main className="h-screen flex flex-col items-center text-center justify-center bg-gray-100">
+    <main className="h-screen max-[1240px]:w-[90%] w-[60%] flex flex-col items-center text-center justify-center mx-auto">
       {isBirthday ? (
         <BirthdayView />
       ) : !isWarning ? (
         <section>
-          <h1 className="text-5xl max-[1040px]:text-3xl font-medium">
+          <h1 className="text-5xl max-[1240px]:text-3xl font-medium">
             Your name is Olya and today is your birthday?
           </h1>
           <section className="flex items-center justify-center gap-5 mt-5">
@@ -26,7 +26,7 @@ export const App = () => {
         </section>
       ) : (
         <section>
-          <h1 className="text-5xl max-[1040px]:text-3xl font-medium">
+          <h1 className="text-5xl max-[1240px]:text-3xl font-medium">
             Either you're lying or you're messing with me. I know that your name
             is Olya and that it's your birthday.
           </h1>
