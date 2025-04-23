@@ -55,7 +55,7 @@ export function SplitText({
   return (
     <p
       ref={ref}
-      className="split-parent inline overflow-hidden text-center text-5xl max-[1240px]:text-3xl font-semibold break-words whitespace-nowrap"
+      className="split-parent mx-2 inline overflow-hidden text-center text-5xl max-[1240px]:text-3xl font-semibold break-words whitespace-nowrap"
     >
       {words.map((word, wordIndex) => (
         <span
