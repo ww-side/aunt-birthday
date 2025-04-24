@@ -50,12 +50,12 @@ export const BirthdayView = () => {
         Happy Birthday to the most amazing aunt! 🎉💐
       </AnimatedP>
       <AnimatedP style={animationProps2}>
-        Remain that powerful and strong woman in your personal and professional
-        life. Always be yourself and do only what makes you feel good and
-        comfortable. Your grace, confidence, and kindness inspire everyone
-        around you. May this year bring you even more joy, success, and moments
-        that make your heart smile. Keep shining and living life on your terms —
-        you deserve nothing less.
+        Remain that powerful and strong woman in your personal life and work.
+        Always be yourself and do only what makes you feel good and comfortable.
+        Your grace, confidence, and kindness inspire everyone around you. May
+        this year bring you even more joy, success, and moments that make your
+        heart smile. Keep shining and living life on your terms — you deserve
+        nothing less.
       </AnimatedP>
       <AnimatedSpan style={animationProps3}>
         <Button onClick={() => setOpenGift(true)}>Get a gift</Button>
